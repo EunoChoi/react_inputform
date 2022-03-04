@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_inputform/static/css/main.1bab791c.css",
+    "main.js": "/react_inputform/static/js/main.8a954fdb.js",
+    "index.html": "/react_inputform/index.html",
+    "main.1bab791c.css.map": "/react_inputform/static/css/main.1bab791c.css.map",
+    "main.8a954fdb.js.map": "/react_inputform/static/js/main.8a954fdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bab791c.css",
+    "static/js/main.8a954fdb.js"
+  ]
+}

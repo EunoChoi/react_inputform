@@ -1,0 +1,50 @@
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.formInput input{
+    width: 300px;
+    padding: 10px 15px;
+    border : 1px solid lightblue;
+
+    border-radius: 5px;
+    font-size: 1.0em;
+}
+.formInput label{
+    color : gray;
+    margin-bottom: 10px;
+}
+.formInput span{
+    font-weight: 600;
+    width: 300px;
+    color:tomato;
+    font-size: 0.7em;
+    display: none;
+}
+
+.formInput input:invalid[focused='true'] ~ span{
+    display: block;
+}
+.formInput input:invalid[focused='true']{
+    border : 2px solid tomato;
+}
+button{
+    width: 100%;
+
+    border : none;
+    color : white;
+    background-color:salmon;
+    border-radius: 5px;
+
+    font-weight: 800;
+    font-size: 1.2em;
+    padding: 10px;
+
+    margin : 10px 0px;
+}
+.hidden{
+    display: none;
+}

@@ -54,7 +54,7 @@ function App() {
       type: "password",
       placeholder: "Password",
       errorMessage:
-        "Password의 길이는 최소 8, 최대 20이며 최소 문자 1개, 숫자 1개, 특수문자[!*@#$%^&] 1개가 포함되어야 합니다.",
+        "Password의 길이는 최소 8, 최대 20이며 최소 문자 1개, 숫자 1개, 특수문자[!@#%&] 1개가 포함되어야 합니다.",
       label: "Password",
       pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#%&])[a-zA-Z0-9!@#%&]{8,20}$`,
       required: true,
